@@ -1,1 +1,129 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+// @keyframes fade {
+//   from {
+//     opacity: 0;
+//   }
+//   to {
+//     opacity: 1;
+//   }
+// }
+// pre code {
+//   display: block;
+//   font-size: 12px;
+//   line-height: 18px;
+//   overflow: auto;
+//   padding: 6px 10px;
+// }
+// code {
+//   background-clip: padding-box;
+//   border-radius: 3px;
+//   border: 1px solid #ccc;
+//   background-color: #f5f5f5;
+//   display: inline-block;
+//   margin: 0 2px -1px;
+//   padding: 0px 3px;
+//   text-decoration: inherit;
+//   vertical-align: baseline;
+// }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  /* Stash default is inline block */
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1,
+h2 {
+  margin: 10px 0 20px 0;
+}
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+}
+ul,
+ol {
+  margin: 10px 30px;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: auto;
+}
+table > tbody > tr,
+table > tfoot > tr {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 7px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+table > tbody > tr:first-child,
+table > tfoot > tr:first-child {
+  border-top: 1px solid #ccc;
+}
+table > thead > tr {
+  border-bottom: 1px solid #ccc;
+}
+table > thead > tr > td,
+table > thead > tr > th {
+  padding: 7px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+table table {
+  margin: 0;
+}
+.commitid {
+  font-family: monospace;
+}
+.user-mention {
+  background-clip: padding-box;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  display: inline-block;
+  margin: 0 2px -1px;
+  padding: 0px 3px;
+  text-decoration: inherit;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+  vertical-align: bottom;
+  word-wrap: normal;
+}
+.user-mention.current-user {
+  background-color: #4a6785;
+  color: #fff;
+  border: 1px solid #4a6785;
+}
+> ul {
+  list-style-type: disc;
+}
+> ul > li > ul {
+  list-style-type: circle;
+}
+> ul > li > ul > li > ul {
+  list-style-type: square;
+}
